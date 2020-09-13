@@ -1,0 +1,16 @@
+.profile__userinfo {
+    grid-area: userinfo;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media (max-width: 700px) {
+    .profile__userinfo {
+        max-height: 100%;
+        font-size: 14px;
+        justify-self: center;
+    }
+}

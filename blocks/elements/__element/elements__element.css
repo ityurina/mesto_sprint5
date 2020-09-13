@@ -1,0 +1,14 @@
+.elements__element {
+    list-style: none;
+    width: 282px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+        "pic pic"
+        "name like";
+    grid-template-columns: 80% 20%;
+}
